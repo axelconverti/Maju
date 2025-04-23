@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maju ♥</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="countdown-container" class="countdown-container">
+    <div class="countdown-background"></div>
+    <div class="countdown-content">
+      <img id="m21-gif" class="m21-gif" src="assets/gifs/ma21.gif" alt="M21 Gif">
+      <h2>¡Todavía no!</h2>
+      <div class="countdown">
+        <div class="countdown-item">
+          <span id="days">00</span>
+          <span class="label">Días</span>
+        </div>
+        <div class="countdown-item">
+          <span id="hours">00</span>
+          <span class="label">Horas</span>
+        </div>
+        <div class="countdown-item">
+          <span id="minutes">00</span>
+          <span class="label">Minutos</span>
+        </div>
+        <div class="countdown-item">
+          <span id="seconds">00</span>
+          <span class="label">Segundos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-content" class="hidden">
+    <div class="question-container container">
+      <div class="gif-container">
+        <img src="assets/gifs/ma5.gif" alt="Cute animated character">
+      </div>
+      <h2 class="question">¿Serías mi novia?</h2>
+      <div class="button-container">
+        <button class="yes-btn btn" id="yes-btn">Sí</button>
+        <button class="no-btn btn" id="no-btn">No</button>
+      </div>
+    </div>
+
+    <div class="result-container container hidden">
+      <img class="gif-result" id="result-gif" alt="Animated reaction">
+      <h2>¡Siiiiii!</h2>
+      <div id="love-message" class="love-message hidden">
+      </div>
+      <div id="gif-gallery" class="gif-gallery hidden">
+      </div>
+    </div>
+
+    <div class="heart-loader hidden">
+      <div class="loader-heart"></div>
+      <div class="loader-shadow"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
