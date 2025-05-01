@@ -12,7 +12,7 @@ const responseGifs = [
   'assets/gifs/ma18.gif'
 ];
 
-const romanticMessage = "Mensaje todavía no disponible...";
+const romanticMessage = "Maju, hace muchísimo que no escribo algo para alguien, y me cuesta poner en palabras algo que no te haya dicho ya en alguna de las mil veces que se me escapó todo lo que siento por vos. Pero de verdad, no te imaginás lo bien que me hacés, lo lindo que es estar cerca tuyo, lo mucho que me gustás y lo que te extraño cuando no estás. Sé que todavía me faltan cosas por descubrir de vos, pero me encantás. Y después de escucharte contar todo lo que pasaste, de darme cuenta de que pensamos parecido, de que soñamos con lo mismo... entendí que lo único que quiero es ser tu primer y último amor. Quiero quererte tanto que te olvides de todas las veces que alguien te hizo sentir menos. Quiero amarte tanto que nunca más sientas que tenés que cargar con todo sola. Que sí, podrías… pero ya no tenés que hacerlo, porque estoy acá. Quiero cuidarte. Quiero ser esa persona a la que busques cuando necesites hablar, ya sea para contar algo importante o simplemente un chisme. Quiero que seamos plan de finde, de escapadas, de atardeceres y lunas llenas. Quiero ser eso que siempre buscaste, y hacerte inmensamente feliz.";
 
 const allGifs = [
   'assets/gifs/ma1.gif', 'assets/gifs/ma2.gif', 'assets/gifs/ma3.gif', 'assets/gifs/ma4.gif',
